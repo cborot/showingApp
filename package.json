@@ -17,6 +17,10 @@
     "@angular/platform-browser": "^19.2.0",
     "@angular/platform-browser-dynamic": "^19.2.0",
     "@angular/router": "^19.2.0",
+    "@ng-doc/app": "20.1.0",
+    "@ng-doc/builder": "20.1.0",
+    "@ng-doc/core": "20.1.0",
+    "@ng-doc/ui-kit": "20.1.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
