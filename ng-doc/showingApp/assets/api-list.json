@@ -1,0 +1,22 @@
+[
+  {
+    "title": "showingApp",
+    "items": [
+      {
+        "route": "/api/classes/api-doc/AppComponent",
+        "type": "Component",
+        "name": "AppComponent"
+      },
+      {
+        "route": "/api/variables/api-doc/appConfig",
+        "type": "Variable",
+        "name": "appConfig"
+      },
+      {
+        "route": "/api/variables/api-doc/routes",
+        "type": "Variable",
+        "name": "routes"
+      }
+    ]
+  }
+]
