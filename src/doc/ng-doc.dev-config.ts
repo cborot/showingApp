@@ -6,7 +6,7 @@ const config: NgDocConfiguration = {
   repoConfig: {
     url: 'https://github.com/cborot/showingApp/',
     mainBranch: 'main',
-    releaseBranch: 'tree/main',
+    releaseBranch: 'release',
   },
 
   // Pour modifier l'en-tête des pages
