@@ -5,10 +5,10 @@
   "compilerOptions": {
     "paths": {
       "@ng-doc/generated": [
-        "./src/doc/output/ng-doc/showingApp/index.ts"
+        "./src/docs/output/ng-doc/showingApp/index.ts"
       ],
       "@ng-doc/generated/*": [
-        "./src/doc/output/ng-doc/showingApp/*"
+        "./src/docs/output/ng-doc/showingApp/*"
       ]
     },
     "outDir": "./dist/out-tsc",

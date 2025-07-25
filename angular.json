@@ -98,7 +98,7 @@
             "development": {
               "buildTarget": "showingApp:build:development",
               "ngDoc": {
-                "config": "src/doc/ng-doc.dev-config.ts"
+                "config": "src/docs/ng-doc.dev-config.ts"
               }
             }
           },

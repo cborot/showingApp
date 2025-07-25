@@ -2,7 +2,7 @@
 import {ChangeDetectionStrategy, Component, Type, ViewChild, ViewContainerRef} from '@angular/core';
 import {NgDocBasePlayground, providePlaygroundDemo} from '@ng-doc/app';
 // noinspection ES6UnusedImports
-import pageEntity from '../../../../../src/docs/configuration/ng-doc.page';
+import pageEntity from '../../../../../installation/ng-doc.page';
 import {CommonModule} from '@angular/common';
 
 export const PLAYGROUND_COMPONENTS = [

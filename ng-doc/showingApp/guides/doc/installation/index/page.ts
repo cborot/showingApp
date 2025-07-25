@@ -3,7 +3,7 @@ import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {Routes} from '@angular/router';
 import {NgDocDemoAssets, NgDocPageComponent, NgDocRootPage} from '@ng-doc/app';
 import {isRoute, NgDocPage, NgDocPageType} from '@ng-doc/core';
-import entry from '../../../../../../src/doc/installation/ng-doc.page';
+import entry from '../../../../../../src/docs/installation/ng-doc.page';
 import {PLAYGROUND_COMPONENTS, PLAYGROUND_PROVIDERS} from '../playgrounds';
 import demoAssets from '../demo-assets';
 

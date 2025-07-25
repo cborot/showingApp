@@ -8,7 +8,7 @@ const config: NgDocConfiguration = {
     mainBranch: 'main',
     releaseBranch: 'release',
   },
-
+  routePrefix: 'docs',
   // Pour modifier l'en-tête des pages
   // guide: {
   //   headerTemplate: 'src/doc/template/header.html',
