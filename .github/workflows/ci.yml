@@ -7,7 +7,7 @@ on:
 jobs:
   unit-test:
     name: Run Tests
-    env:
+    #env:
       # Configurer ce secret sur GitHub dans Settings -> secrets -> actions -> Repository
       # SECRET_CONNEXION: ${{secrets.SECRET_CONNEXION}}
     runs-on: debian-latest
