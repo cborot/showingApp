@@ -1,6 +1,11 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
+  "cli": {
+    "cache": {
+      "enabled": false
+    }
+  },
   "newProjectRoot": "projects",
   "projects": {
     "showingApp": {
@@ -98,7 +103,7 @@
             "development": {
               "buildTarget": "showingApp:build:development",
               "ngDoc": {
-                "config": "src/doc/ng-doc.dev-config.ts"
+                "config": "src/docs/ng-doc.config.ts"
               }
             }
           },
@@ -124,7 +129,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "karmaConfig": "karma.conf.js"
           }
         }
       }
