@@ -27,13 +27,13 @@ import type { Config } from 'jest';
 
 const config: Config = {
   preset: 'jest-playwright-preset',
-  //testMatch: ["**/__tests__/**/*.(ts|js)", "**/?(*.)+(spec|test).+(ts|js)"],
+  testMatch: ["**/__tests__/**/*.(ts|js)", "**/?(*.)+(spec|test).+(ts|js)"],
   transform: {
     '^.+\\.ts$': 'ts-jest',
   },
   verbose: true,
   testTimeout: 20000,
-  //setupFilesAfterEnv: ["expect-playwright"],
+  setupFilesAfterEnv: ["expect-playwright"],
   testEnvironmentOptions: {
     "jest-playwright": {
       browsers: ["firefox"],
