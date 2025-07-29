@@ -19,6 +19,7 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
+.editorconfig
 
 # Visual Studio Code
 .vscode/*
@@ -43,4 +44,4 @@ Thumbs.db
 
 
 # NgDoc files
-/src/doc/output
+/src/docs/output

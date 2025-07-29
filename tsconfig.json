@@ -9,8 +9,13 @@
       ],
       "@ng-doc/generated/*": [
         "./src/docs/output/ng-doc/showingApp/*"
-      ]
+      ],
     },
+    "types": [
+      "@types/jest",
+      "jest-playwright-preset",
+      "expect-playwright",
+    ],
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
@@ -20,6 +25,7 @@
     "skipLibCheck": true,
     "isolatedModules": true,
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "experimentalDecorators": true,
     "moduleResolution": "bundler",
     "importHelpers": true,
