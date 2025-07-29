@@ -5,16 +5,21 @@ on:
     branches: ["main"]
 
 jobs:
-  unit-test:
-    name: Run Tests
-    #env:
-      # Configurer ce secret sur GitHub dans Settings -> secrets -> actions -> Repository
-      # SECRET_CONNEXION: ${{secrets.SECRET_CONNEXION}}
+  test:
+    name: Run unit tests
+    timeout-minutes: 3
     runs-on: debian-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - name: Checks-out repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: "22.16"
-      - run: npm install
-      - run: npm test
+
+      - name: Intall dependencies 
+        run: npm install
+      
+      - name: Start tests
+        run: npm test
