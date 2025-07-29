@@ -9,12 +9,12 @@ jobs:
     name: Run Tests
     env:
       # Configurer ce secret sur GitHub dans Settings -> secrets -> actions -> Repository
-      SECRET_CONNEXION: ${{secrets.SECRET_CONNEXION}}
+      # SECRET_CONNEXION: ${{secrets.SECRET_CONNEXION}}
     runs-on: debian-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: "22"
+          node-version: "22.16"
       - run: npm install
       - run: npm test
