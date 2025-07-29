@@ -21,8 +21,8 @@ jobs:
       - name: Install dependencies 
         run: npm install
       
-      - nane: Install playwright
+      - name: Install playwright
         run: npx playwright install
-        
+
       - name: Start tests
         run: npm test
